@@ -1,0 +1,383 @@
+body {
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x:hidden ;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  color: #F2F2F4;
+  width: 10%;
+  border-width: 8px;
+  margin: 100px auto;
+}
+
+/* navbar */
+
+#nav-bar{
+  background-color: #F2F2F4;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  color: #316FF6 !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  background-color: gray;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #000 ;
+}
+.nav-link:hover{
+  color: rgb(243, 1, 1);
+}
+
+/* hero section */
+#hero{
+  position: relative;
+}
+.heading-container {
+  /* background-image: url("/image/main.jpg");
+  background-size: cover;
+  height: 700px;
+  color: #fff; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20%;
+  transform: translateY(-50%);
+}
+
+.title {
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.title h1 {
+  font-size: 8vw;
+  background: -webkit-linear-gradient(rgb(65, 12, 241), rgb(1, 243, 53));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title p {
+  font-size: 3vw;
+  background: -webkit-linear-gradient(rgb(245, 125, 6), rgb(246, 246, 243),rgb(239, 10, 63));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-button-conatiner {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.title-button-conatiner button{
+  font-size: 1.2vw;
+}
+
+
+/* event sectiin  */
+#event {
+  padding: 7% 5%;
+  color: #F2F2F4;
+  text-align: center;
+}
+
+.event-content {
+  padding-top: 3rem;
+  margin-top: 3rem;
+}
+
+.event-container {
+  margin: 10px 0;
+  scale:1;
+  transition: scale 0.6s linear;
+}
+.event-container:hover{
+  scale:0.8;
+}
+
+#event h2 {
+  font-weight: bolder;
+}
+
+#event h2 {
+  font-size: 7vw;
+  background: -webkit-linear-gradient(rgb(65, 12, 241), rgb(212, 4, 177));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#event p {
+  /* color: #fff; */
+  line-height: 2.5;
+  font-size: 16px;
+}
+
+.event-box {
+  margin: 20px 5px;
+  padding: 20px;
+  border-radius: 50px;
+  border: 5px solid #360eff;
+  text-align: center;
+  height: 95%;
+  background: #F2F2F4;
+  box-shadow: 0px 4px 10px 2px rgba(244, 15, 15, 0.25);
+  transition: border 0.3s ease-in-out;
+}
+.event-box:hover{
+  border:  5px solid rgba(10, 237, 105, 0.995);
+}
+
+.event-box p{
+  color: #000;
+}
+
+.event-img {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+
+/* comunity section */
+#comunity {
+  text-align: center;
+  padding: 0 5%;
+}
+
+#comunity h1{
+  font-size: 7vw;
+  background: -webkit-linear-gradient(rgb(212, 4, 177),rgb(65, 12, 241) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.comunity-container {
+  margin: 0 auto;
+}
+
+.comunity-box {
+  padding: 20px;
+  border-radius: 50px;
+  border: 5px solid #360eff;
+  text-align: center;
+  background: #F2F2F4;
+  box-shadow: 0px 4px 10px 2px rgb(243, 1, 223);
+}
+
+#comunity p {
+  line-height: 30px;
+  font-size: 16px; 
+}
+
+
+.comunity-img {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.comunity-img img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+/* video section */
+#video {
+  text-align: left;
+  padding: 7% 5%;
+  padding-bottom: 0;
+}
+
+
+.video-container {
+  width: 460x;
+  margin: 20px 5px;
+  padding: 10px;
+  box-shadow: 0px 8px 10px 6px rgba(240, 0, 104,1);
+  border-radius: 14px;
+}
+
+.video-size {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 100% !important;
+}
+
+
+/* partner section */
+
+.partner-images{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#scroll-text h2{
+  text-align: center;
+  font-size: 7vw;
+  padding-bottom: 45px;
+  background: -webkit-linear-gradient(rgb(212, 4, 177),rgb(65, 12, 241) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* footer */
+
+#footer {
+  padding: 5% 3%;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #F2F2F4;
+  color: #000;
+}
+.footer-info h1{
+  font-weight: bolder;
+}
+
+#footer .icons a{
+  color: #000 !important;
+}
+
+#footer .icons a .instagram:hover{
+  color: #fa7e1e;
+}
+
+#footer .icons a .twitter:hover,#footer .icons a .linkedin:hover{
+  color: #316FF6;
+}
+
+#footer .icons a .github:hover{
+  color: #2ea44f ;
+}
+
+#footer i {
+  font-size: 20px;
+}
+
+#footer li,
+p {
+  list-style: none;
+}
+
+.footer-icon {
+  margin: 15px 10px;
+}
+
+.footer-info {
+  padding: 20px;
+}
+
+.result-modal {
+  border: none;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: #d7fcf8;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result-modal[open] {
+  animation: slide-in-from-top 0.35s ease-out;
+}
+
+.result-modal::backdrop {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.result-modal h2 {
+  /* font-family: 'Handjet', monospace; */
+  margin: 0 0 0.25rem 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.result-modal progress {
+  width: 100%;
+  height: 1.5rem;
+  margin: 0;
+  accent-color: #46cebe;
+}
+
+.result-modal p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.result-modal p strong {
+  color: #10655b;
+}
+
+.result-modal form {
+  text-align: right;
+}
+
+.result-modal button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #12352f;
+  color: #edfcfa;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.result-modal button:hover {
+  background: #051715;
+}
+
+@keyframes slide-in-from-top {
+  0% {
+    transform: translateY(-15%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width:996px) {
+  .heading-container{
+    bottom: 0%;
+  }
+  .title-button-conatiner button {
+    font-size: x-small;
+  }
+  #comunity h1,#scroll-text h2,#event h2,.title h1 {
+    font-size: 10vw;
+  }
+  .title p{
+    font-size: 4vw;
+  }
+}
